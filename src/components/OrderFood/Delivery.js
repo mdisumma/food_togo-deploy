@@ -7,7 +7,8 @@ function Delivery(props) {
   const [orderStatus, setOrderStatus] = useState("");
   const [orderRated, setOrderRated] = useState("");
   const [estimateDelivery, setEstimateDelivery] = useState();
-  const fetchOrderHandler = useCallback(async () => {
+
+  const fetchOrderHandler = async () => {
     try {
       const response = await fetch(
         "https://food-togo.herokuapp.com/orderRouter"
@@ -24,7 +25,7 @@ function Delivery(props) {
     } catch (error) {
       console.log(error);
     }
-  }, []);
+  };
 
   function getRated(data) {
     setOrderRated(data);
