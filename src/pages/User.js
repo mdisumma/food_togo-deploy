@@ -67,6 +67,7 @@ function User() {
   }
 
   async function submitOrderHandler() {
+    setPaymentChecked();
     const response = await fetch(
       "https://food-togo.herokuapp.com/orderRouter",
       {
@@ -152,7 +153,6 @@ function User() {
     }
 
     if (!account && !delivery) {
-      resetState();
       if (restaurantData.length === 0) {
         setPageTitle("Order");
         setRestaurants(true);
@@ -178,9 +178,9 @@ function User() {
         setText("confirm order");
       }
     }
-    // if (!paymentChecked) {
-    //   setText("insert payment");
-    // }
+    if (paymentChecked === null) {
+      setText("insert payment");
+    }
     if (paymentChecked) {
       setText("submit payment");
     }
