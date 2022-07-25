@@ -3,7 +3,7 @@ import Stars from "../assets/Stars";
 import RateSystem from "../RateSystem/RateSystem";
 import "./Delivery.css";
 function Delivery(props) {
-  const [orderDetails, setOrderDetails] = useState();
+  const [orderDetails, setOrderDetails] = useState(null);
   const [orderStatus, setOrderStatus] = useState("");
   const [orderRated, setOrderRated] = useState("");
   const [estimateDelivery, setEstimateDelivery] = useState();
