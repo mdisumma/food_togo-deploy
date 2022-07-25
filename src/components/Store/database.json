@@ -62,21 +62,21 @@
       "menu": {
         "starter": [
           {
-            "image": "https://food-togo.herokuapp.com/france-starter.jpg",
+            "image": "https://food-togo.herokuapp.com/french-starter.jpg",
             "name": "Starter",
             "price": 6.0
           }
         ],
         "mainCourse": [
           {
-            "image": "https://food-togo.herokuapp.com/france-main-corse.jpg",
+            "image": "https://food-togo.herokuapp.com/french-main-corse.jpg",
             "name": "Main Course",
             "price": 10.0
           }
         ],
         "dessert": [
           {
-            "image": "https://food-togo.herokuapp.com/france-dessert.jpg",
+            "image": "https://food-togo.herokuapp.com/french-dessert.jpg",
             "name": "Dessert",
             "price": 5.0
           }
