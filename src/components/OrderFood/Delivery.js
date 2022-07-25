@@ -121,6 +121,7 @@ function Delivery(props) {
       const data = await response.json();
 
       setOrderStatus(data.status);
+      setOrderDetails(false);
     } catch (error) {
       console.log(error);
     }
