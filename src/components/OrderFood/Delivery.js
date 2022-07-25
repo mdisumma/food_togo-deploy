@@ -217,7 +217,7 @@ function Delivery(props) {
         </div>
       )}
 
-      {orderStatus === "delivered" && orderRated === 0 && (
+      {orderStatus === "delivered" && (
         <footer>
           <RateSystem
             orderId={orderDetails[0].id}
