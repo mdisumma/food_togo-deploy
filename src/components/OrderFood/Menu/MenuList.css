@@ -1,0 +1,44 @@
+.menuList {
+  background-color: var(--light-bg);
+  border-radius: 1em;
+  margin: 1em;
+  padding: 0.5em 0;
+  
+}
+
+.categorieName {
+  background-color: white;
+  border-radius: 1em;
+  margin:  0.5em;
+}
+
+.categorieName h3 {
+  color: rgb(0, 0, 0);
+  padding:1em;
+  border-radius: 1em;
+  margin: 0 1em;
+  font-weight:400;
+  font-size: 1em;
+  text-align: center;
+  cursor: pointer;
+}
+.menuList h2 {
+  color: rgb(255, 255, 255);
+  padding: 0.5em;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+
+
+.menu {
+  display: block;
+  border-radius: 0.5em;
+  /* overflow: hidden; */
+}
+
+.hideMenu {
+  display: none;
+}

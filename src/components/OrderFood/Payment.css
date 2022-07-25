@@ -1,0 +1,55 @@
+.payment {
+   width: calc(100% - 2em);
+   background-color: var(--light-bg);
+   margin: 0 1em;
+   padding-bottom: 1em;
+   border-radius: 1em;
+}
+
+.payment h2 {
+   color: rgb(255, 255, 255);
+   padding: 0.5em;
+   margin: 0;
+   font-weight: 600;
+   font-size: 1.2em;
+   text-align: center;
+}
+.payment form {
+   margin-bottom: 2em;
+}
+
+
+.submitOrder {
+   background-color: rgb(255, 255, 255);
+   margin: 0 1em;
+   padding: 1em;
+   border-radius: 1em;
+}
+.submitOrder h3 {
+   margin: 1em 0;
+}
+.submitOrder h4 {
+   margin: 1em 0;
+}
+.submitOrder li {
+   margin: 0.5em 0;
+}
+.submitOrder ul{
+   max-width: 420px;
+   margin: 0.5em auto;
+}
+.submitOrder .orderItems {
+   max-width: 100%;
+}
+.submitOrder .orderItems li{
+   max-width: 420px;
+   margin: 0.5em auto;
+   display: flex;
+   justify-content: space-between;
+}
+
+.submitOrder .orderItems li:last-child {
+   font-size: 1em;
+   margin: 1em auto;
+   font-weight: 600;
+}

@@ -1,0 +1,13 @@
+.downloadApp {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin:2em auto;
+   
+  
+}
+.downloadApp img {
+   width: 100px;
+   display: block;
+   margin:1em auto;
+}

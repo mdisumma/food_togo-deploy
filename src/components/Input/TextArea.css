@@ -1,0 +1,18 @@
+.textArea textarea {
+  font-family: "Montserrat", sans-serif;
+  margin: 0.5em 1em;
+  padding: 0 0 0 1em;
+  height: 2em;
+  width: calc(100% - 3em);
+  font-size: 1em;
+  border-radius: 1em;
+  border: 0;
+}
+
+.textArea label {
+  color: rgb(255, 255, 255);
+  font-size: var(--small-text);
+  font-family: "Montserrat", sans-serif;
+  margin: 2em;
+  padding-left: 0.5em;
+}

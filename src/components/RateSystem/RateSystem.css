@@ -1,0 +1,31 @@
+.rateSistem {
+   box-sizing: border-box;
+   min-width: calc(var(--min-width) - 2em);
+   max-width: calc(var(--max-width) - 2em);
+   width: calc(100% - 2em);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color:var(--mid-bg);
+   height: 2.6em;
+   padding: 0 1em;
+   border-radius: 1.5em;
+}
+.rateSistem .label{
+   text-align: center;
+   flex-basis: 20%;
+   color: rgb(255, 255, 255);
+   font-weight: 500;
+}
+
+.rateSistem .stars{
+   max-width: 300px;
+   margin: 0 auto;
+   flex-basis: 80%;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.rateSistem svg {
+   width: 1.7em;
+}

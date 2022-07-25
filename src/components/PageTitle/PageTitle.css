@@ -1,0 +1,18 @@
+.pageTitle {
+  padding: 0.5em 0;
+  margin-bottom: 2em;
+  color: rgb(255, 255, 255);
+  background-color: var(--exmid-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pageTitle h1 {
+  color: rgb(255, 255, 255);
+  font-weight:500 ;
+  font-size: 1.5em;
+  margin: 0;
+  font-style: italic;
+  text-align: center;
+}

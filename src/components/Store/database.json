@@ -1,0 +1,230 @@
+{
+  "restaurants": [
+    {
+      "openingHours": {},
+      "delivery": true,
+      "logo": "https://food-togo.herokuapp.com/italianFamily.png",
+      "name": "Italian Style",
+      "description": "amazing Italian food",
+      "address": "restaurant address",
+      "postcode": "se16 2qd",
+      "latitude": 51.480035,
+      "longitude": 0.018568,
+      "city": "London",
+      "vegetarian": 3,
+      "type": "Italian",
+      "rate": [2],
+      "menu": {
+        "starter": [
+          {
+            "image": "https://food-togo.herokuapp.com/italian-starter.jpg",
+            "name": "Starter",
+            "price": 6.0
+          }
+        ],
+        "mainCourse": [
+          {
+            "image": "https://food-togo.herokuapp.com/italian-main-corse.jpg",
+            "name": "Main Course",
+            "price": 10.0
+          }
+        ],
+        "dessert": [
+          {
+            "image": "https://food-togo.herokuapp.com/italian-dessert.jpg",
+            "name": "Dessert",
+            "price": 5.0
+          }
+        ],
+        "drink": [
+          {
+            "image": "https://food-togo.herokuapp.com/water.jpg",
+            "name": "Soft Drink",
+            "price": 2.5
+          }
+        ]
+      }
+    },
+    {
+      "openingHours": {},
+      "delivery": false,
+      "logo": "https://food-togo.herokuapp.com/leCordonBleu.png",
+      "name": "Le Cordon Bleu",
+      "description": "amazing French food",
+      "address": "restaurant address",
+      "postcode": "se16 2qd",
+      "latitude": 51.491999,
+      "longitude": -0.047555,
+      "city": "London",
+      "vegetarian": 2,
+      "type": "French",
+      "rate": [1],
+      "menu": {
+        "starter": [
+          {
+            "image": "https://food-togo.herokuapp.com/france-starter.jpg",
+            "name": "Starter",
+            "price": 6.0
+          }
+        ],
+        "mainCourse": [
+          {
+            "image": "https://food-togo.herokuapp.com/france-main-corse.jpg",
+            "name": "Main Course",
+            "price": 10.0
+          }
+        ],
+        "dessert": [
+          {
+            "image": "https://food-togo.herokuapp.com/france-dessert.jpg",
+            "name": "Dessert",
+            "price": 5.0
+          }
+        ],
+        "drink": [
+          {
+            "image": "https://food-togo.herokuapp.com/water.jpg",
+            "name": "Soft Drink",
+            "price": 2.5
+          }
+        ]
+      }
+    },
+    {
+      "openingHours": {},
+      "delivery": true,
+      "logo": "https://food-togo.herokuapp.com/indianTaste.png",
+      "name": "Indian taste",
+      "description": "amazing Indian food",
+      "address": "restaurant address",
+      "postcode": "se16 2qd",
+      "latitude": 51.537074,
+      "longitude": -0.077064,
+      "city": "London",
+      "vegetarian": 1,
+      "type": "Indian",
+      "rate": [3],
+      "menu": {
+        "starter": [
+          {
+            "image": "https://food-togo.herokuapp.com/indian-starter.jpg",
+            "name": "Indian Starter",
+            "price": 6.0
+          }
+        ],
+        "mainCourse": [
+          {
+            "image": "https://food-togo.herokuapp.com/indian-main-corse.jpg",
+            "name": "Indian Main Course",
+            "price": 10.0
+          }
+        ],
+        "dessert": [
+          {
+            "image": "https://food-togo.herokuapp.com/indian-dessert.jpg",
+            "name": "Indian Dessert",
+            "price": 5.0
+          }
+        ],
+        "drink": [
+          {
+            "image": "https://food-togo.herokuapp.com/water.jpg",
+            "name": "Soft Drink",
+            "price": 2.5
+          }
+        ]
+      }
+    },
+    {
+      "openingHours": {},
+      "delivery": true,
+      "logo": "https://food-togo.herokuapp.com/tokioHouse.png",
+      "name": "Tokyo House",
+      "description": "amazing Japanese food",
+      "address": "restaurant address",
+      "postcode": "se16 2qd",
+      "latitude": 51.491999,
+      "longitude": -0.047555,
+      "city": "London",
+      "vegetarian": 2,
+      "type": "Japanese",
+      "rate": [2],
+      "menu": {
+        "starter": [
+          {
+            "category": "starter",
+            "image": "https://food-togo.herokuapp.com/japanese-starter.jpg",
+            "name": "Japanese Starter",
+            "price": 6.0
+          }
+        ],
+        "mainCourse": [
+          {
+            "image": "https://food-togo.herokuapp.com/japanese-main-corse.jpg",
+            "name": "Japanese Main Course",
+            "price": 10.0
+          }
+        ],
+        "dessert": [
+          {
+            "image": "https://food-togo.herokuapp.com/japanese-dessert.jpg",
+            "name": "Japanese Dessert",
+            "price": 5.0
+          }
+        ],
+        "drink": [
+          {
+            "image": "https://food-togo.herokuapp.com/water.jpg",
+            "name": "Soft Drink",
+            "price": 2.5
+          }
+        ]
+      }
+    },
+    {
+      "openingHours": {},
+      "delivery": true,
+      "logo": "https://food-togo.herokuapp.com/orientExpress.png",
+      "name": "Orient Express",
+      "description": "amazing Chinese food",
+      "address": "restaurant address",
+      "postcode": "se16 2qd",
+      "latitude": 51.491999,
+      "longitude": -0.047555,
+      "city": "London",
+      "vegetarian": 2,
+      "type": "Chinese",
+      "rate": [3],
+      "menu": {
+        "starter": [
+          {
+            "image": "https://food-togo.herokuapp.com/chinese-starter.jpg",
+            "name": "Starter",
+            "price": 6.0
+          }
+        ],
+        "mainCourse": [
+          {
+            "image": "https://food-togo.herokuapp.com/chinese-main-corse.jpg",
+            "name": "Main Course",
+            "price": 10.0
+          }
+        ],
+        "dessert": [
+          {
+            "image": "https://food-togo.herokuapp.com/chinese-dessert.jpg",
+            "name": "Dessert",
+            "price": 5.0
+          }
+        ],
+        "drink": [
+          {
+            "image": "https://food-togo.herokuapp.com/water.jpg",
+            "name": "Soft Drink",
+            "price": 2.5
+          }
+        ]
+      }
+    }
+  ]
+}

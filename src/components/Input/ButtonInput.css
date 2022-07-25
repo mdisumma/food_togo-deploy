@@ -1,0 +1,50 @@
+.filterInput label{
+  color: rgb(255, 255, 255);
+  font-size: var(--small-text);
+  font-family: "Montserrat", sans-serif;
+  margin: 2em;
+  padding-left: 0.5em;
+}
+
+.buttonInput {
+  display: flex;
+  align-items: center;
+}
+.buttonInput input {
+  width: calc(((100% - 3em) / 3) * 2);
+  border-radius: 1em 0 0 1em;
+  font-family: "Montserrat", sans-serif;
+  margin: 0.5em 0 0.5em 1em;
+  padding: 0 0 0 1em;
+  height: 2em;
+  font-size: 1em;
+  border: 0;
+}
+.buttonInput button {
+
+  color: black;
+  background-color: var(--exlight-bg);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8em;
+  height: 2rem;
+  width: calc((100% - 3em) / 3);
+  right: 0;
+  margin: 0.5em 1em 0.5em 0em;
+  border-radius: 0 2em 2em 0;
+  border: 0;
+}
+.buttonInput button:active {
+  background-color: var(--brand-color);
+}
+.invalid input{
+ 
+  background-color: rgb(255, 250, 229);
+ 
+ }
+.alert {
+  
+  font-size: 0.8em;
+  margin: 0 3em 1em;
+  color: var(--brand-color);
+}
+

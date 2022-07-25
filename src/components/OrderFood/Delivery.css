@@ -1,0 +1,142 @@
+.delivery {
+	box-sizing: border-box;
+	width: calc(100% - 2em);
+	background-color: var(--light-bg);
+	margin: 1em;
+	border-radius: 1em;
+	padding-bottom: 1em;
+}
+
+.delivery h2 {
+	color: rgb(255, 255, 255);
+	padding: 0.5em;
+	margin: 0;
+	font-weight: 600;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.orderStatus {
+	background-color: rgb(255, 255, 255);
+	margin: 0 1em;
+	padding: 1em;
+	border-radius: 1em;
+}
+
+.orderStatus h3 {
+	margin: 1em 0;
+}
+
+.orderDescription {
+	background-color: rgb(255, 255, 255);
+	margin: 0 1em;
+	padding: 1em;
+	border-radius: 1em;
+}
+.orderDescription h3 {
+	margin: 1em 0;
+}
+.orderDescription h4 {
+	margin: 1em 0;
+}
+.orderDescription li {
+	margin: 0.5em 0;
+}
+.orderDescription ul {
+	max-width: 420px;
+	margin: 0.5em auto;
+}
+.orderDescription .orderItems {
+	max-width: 100%;
+}
+.orderDescription .orderItems li {
+	max-width: 420px;
+	margin: 0.5em auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.orderDescription .orderItems li:last-child {
+	font-size: 1em;
+	margin: 1em auto;
+	font-weight: 600;
+}
+
+#rated {
+	text-align: center;
+	margin: 0 1em;
+	padding: 0.5em;
+	background-color: rgb(255, 255, 255);
+}
+
+#rated p:first-of-type {
+	margin: 0.5em;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+#rated p:last-of-type {
+	margin: 0.5em;
+	font-size: 1.8em;
+}
+
+#rated svg {
+	width: 150px;
+	margin: 0 auto;
+}
+
+/* rating icon */
+
+#rated #bk {
+	fill: rgb(255, 203, 3);
+}
+
+#rated #mask {
+	fill: rgb(255, 255, 255);
+}
+
+#rated #border {
+	fill: none;
+	stroke: #ffcb03;
+	stroke-miterlimit: 10;
+}
+
+/* order status */
+.status {
+	height: 1em;
+   display:grid;
+   grid-template-columns:2em 1fr ;
+	align-items: center;
+	justify-content: center;
+   
+}
+.status p {
+   margin: 0 ;
+	
+}
+
+.activeStatus {
+	display: inline-block;
+	flex-basis: 1em;
+   border-radius: 1em;
+   height: 1em;
+   width: 1em;
+   background-color:var(--brand-color);
+	animation: pulse 2s infinite; 
+}
+.noActiveStatus {
+	height: 1em;
+   width: 1em;
+	border-radius: 1em;
+	background-color:rgb(30, 160, 30);
+}
+
+@keyframes pulse {
+	0%   {transform: scale(100%);}
+	50%  {transform: scale(50%);  } 
+	100% {transform: scale(100%); }
+ }
+
+ #start {
+	margin-left:1em ;
+ }

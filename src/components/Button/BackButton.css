@@ -1,0 +1,9 @@
+.backButton {
+   height: 3em;
+   background-color: var(--mid-bg);
+   border-radius: 1.5em;
+}
+.backButton svg{
+   height: 2.6em;
+   padding: 0 1em ;
+}

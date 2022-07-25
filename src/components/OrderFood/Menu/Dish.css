@@ -1,0 +1,101 @@
+.dish {
+  /* height: var(--height-unit); */
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  margin: 0.5em ;
+  border-radius: 1em;
+}
+
+.dish-image {
+  margin: 0;
+  padding: 0.5em;
+  flex-basis: 20%;
+}
+
+.dish-image img {
+  height: 100px;
+  width:  150px;
+  border-radius: 0.8em;
+  object-fit: contain;
+  
+}
+
+.dish-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 55%;
+  margin: 0.5em;
+}
+
+.dish h3 {
+  font-weight: 500;
+  font-size: 1em;
+  margin: 0;
+}
+
+
+
+.dish-data p{
+  font-size: var(--small-text);
+  
+  margin: 0;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.1em;
+  margin-bottom: 0.5em;
+}
+
+.dish-select {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Quantity */
+.dish-qty {
+  margin: 1em;
+  width: calc(100% - 2em);
+  display: flex;
+  justify-content: space-between;
+}
+.dish-qty-hide {
+  display: none;
+}
+.dish-qty button {
+  background-color: rgb(255, 255, 255);
+  width: 45%;
+  font-size: 1em;
+  border: none;
+  border-radius: 1em;
+}
+.dish-qty-counter {
+  padding: 0.2em;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--exlight-bg);
+  border-radius: 1em;
+}
+.dish-qty-counter button {
+  background-color: rgb(255, 255, 255);
+  padding: 0.2em;
+  font-size: 1.2em;
+  width: 2em;
+}
+
+.dish-qty-counter button:hover {
+  background-color: var(--brand-color);
+  
+}
+.dish-qty-counter input {
+  border-radius: 1em;
+  padding: 0.2em;
+  border: none;
+  width: 1.5em;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0 0.5em;
+}

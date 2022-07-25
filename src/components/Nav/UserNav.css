@@ -1,0 +1,15 @@
+.userNav {
+   max-width: calc(var(--max-width) - 2em);
+   width: calc(100% - 2em);
+   margin: 0 auto;
+   height: var(--height-unit);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.userNav svg {
+   max-height: 40px;
+   display: block;
+   height: calc(var(--height-unit) - 2em);
+}

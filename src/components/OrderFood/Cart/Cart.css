@@ -1,0 +1,41 @@
+.orderFood {
+  background-color: var(--light-bg);
+  margin: 0 1em;
+  padding-bottom: 0.5em;
+  border-radius: 1em;
+}
+.orderFood h2 {
+  color: rgb(255, 255, 255);
+  padding: 0.5em;
+  margin: 0;
+  font-weight: 600;
+  font-size: 1.2em;
+  text-align: center;
+}
+.orderFood ul {
+  padding: 1em;
+  margin: 0 0.5em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1em;
+}
+
+.orderFood ul li {
+  display:grid;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-template-columns: 1em 1fr 4em 4em;
+  padding: 0.5em 0;
+  
+}
+
+.orderFood ul li:last-child {
+  border-top: 1px solid black;
+}
+#totalAmount {
+  display: flex;
+  justify-content: space-between;
+}
+#totalAmount span {
+  font-weight: 500;
+  width: 4em;
+}

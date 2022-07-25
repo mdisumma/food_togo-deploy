@@ -1,0 +1,52 @@
+.restaurantInfo {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.restaurantInfo ul li {
+  margin: 0.5em;
+}
+
+.restaurantInfo ul li:nth-child(1) {
+  font-size: 1.5em;
+}
+.restaurantInfo ul li:nth-child(2) {
+  font-size: 1em;
+}
+.restaurantInfo ul li:nth-child(3) {
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.restaurantInfo ul li span {
+  margin: 0 0.5em;
+}
+.restaurantInfo ul li .rates{
+  font-size: 0.8em;
+}
+
+
+.restaurantInfo svg {
+  margin:0.5em;
+  height:1.2em;
+}
+
+/* rating icon */
+
+#bk {
+  fill: rgb(255, 203, 3)
+}
+
+#mask {
+  fill: #505050;
+}
+
+#border {
+  fill: none;
+  stroke: #ffcb03;
+  stroke-miterlimit: 10;
+}
+

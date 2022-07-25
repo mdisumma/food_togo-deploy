@@ -1,0 +1,16 @@
+.fullButton {
+  min-width: calc(var(--min-width) - 2em);
+  max-width: calc(var(--max-width) - 2em);
+  width: calc(100% - 2em);
+  color: var(--btn-text);
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  padding: 0;
+  margin: 2em 1em;
+  background-color: var(--btn-bg);
+  height: 2em;
+  font-size: 1em;
+  border-radius: 1em;
+  border: 0;
+}
+

@@ -1,0 +1,26 @@
+
+
+
+ .itemCounter {
+   background-color: var(--exlight-bg);
+   padding: 0.2em;
+   border-radius: 1em;
+   width: 3em;
+   height: 1.2em;
+   display:flex;
+   justify-content: space-between;
+ }
+ .itemCounter:hover {
+   border:1px solid var(--brand-color);
+ }
+ 
+ .itemCounter button{
+   font-weight: 600;
+   font-size: 0.7em;
+   background-color:rgb(255, 255, 255);
+   border-radius: 1em;
+}
+.itemCounter button:hover{
+   background-color:var(--brand-color);
+  
+}

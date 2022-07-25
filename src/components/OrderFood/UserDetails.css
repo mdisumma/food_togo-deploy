@@ -1,0 +1,48 @@
+.userDetails {
+   width: calc(100% - 2em);
+   background-color: var(--light-bg);
+   margin:2em 1em;
+   padding-bottom: 1em;
+   border-radius: 1em;
+}
+.userDetails ul  {
+   margin: 1em;
+   padding: 1em;
+   border-radius: 1em;
+   background-color: white;
+   }
+.userDetails ul li {
+   max-width: 420px;   
+   margin: 0.5em auto;
+   
+}
+.userDetails h2 {
+   color: rgb(255, 255, 255);
+   padding: 0.5em;
+   margin: 0;
+   font-weight: 600;
+   font-size: 1.2em;
+   text-align: center;
+}
+.userDetails .update {
+   display: block;
+   color: rgb(255, 255, 255);
+   padding: 0.5em;
+   margin: 0 auto;
+   border-radius: 1em;
+   font-size: 1em;
+   text-align: center;
+}
+.userDetails .active {
+  
+   color: var(--brand-color);
+  
+}
+
+.userDetails form .fullButton {
+  margin: 2em 1em 0 1em;
+  min-width: calc(var(--min-width) - 4em);
+  max-width: calc(var(--max-width) - 4em);
+  width: calc(100% - 2em);
+}
+

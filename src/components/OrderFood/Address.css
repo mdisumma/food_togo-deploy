@@ -1,0 +1,17 @@
+.address {
+   width: calc(100% - 2em);
+   background-color: var(--light-bg);
+   margin: 0 1em;
+   border-radius: 1em;
+}
+
+.address h2 {
+   color: rgb(255, 255, 255);
+   padding: 0.5em;
+   margin: 0;
+   font-weight: 600;
+   font-size: 1.2em;
+   text-align: center;
+}
+
+

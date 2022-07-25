@@ -1,0 +1,48 @@
+:root {
+  --margin-small: 6em;
+  
+}
+
+.sliderContainer {
+  color: var(--btn-text);
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  padding: 0;
+  margin: 1em auto;
+  background-color: var(--exlight-bg);
+  height: 1.5em;
+  width: 80%;
+  max-width: var(--max-width);
+  font-size: 1em;
+  border-radius: 1em;
+  border: 0;
+  position: relative;
+}
+
+.select {
+  font-size: var(--small-text);
+  margin: 0;
+  border-radius: 1em;
+  border: 0;
+  width: calc(100% / 2);
+  max-width: var(--max-width);
+  background-color: transparent;
+  z-index: 10;
+}
+
+.select:hover {
+  background-color: transparent;
+}
+
+.slide {
+  width: calc(100% / 2);
+  max-width: calc(var(--max-width) / 2);
+  height: 1.5em;
+  border: none;
+  border-radius: 0.75em;
+  position: absolute;
+  left: 0;
+  background-color: var(--btn-bg);
+  transform: translateX(0%);
+  transition: 0.2s ease-in;
+}
