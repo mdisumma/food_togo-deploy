@@ -152,6 +152,7 @@ function User() {
     }
 
     if (!account && !delivery) {
+      resetState();
       if (restaurantData.length === 0) {
         setPageTitle("Order");
         setRestaurants(true);
@@ -165,7 +166,6 @@ function User() {
       }
       //dispalay Menu (menu list)
       if (restaurantData.length === 1 && orderCtx.items.length === 0) {
-        resetState();
         setRestaurants(false);
         setPageTitle("Menu list");
         setMenu(true);
