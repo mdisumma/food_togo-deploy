@@ -137,7 +137,7 @@ function Delivery(props) {
   useEffect(() => {
     calcDeliveryTime();
     console.log(estimateDelivery);
-  }, [orderDetails]);
+  }, [orderDetails, orderRated]);
 
   return orderDetails ? (
     <div>
