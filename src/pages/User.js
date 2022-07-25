@@ -165,6 +165,7 @@ function User() {
       }
       //dispalay Menu (menu list)
       if (restaurantData.length === 1 && orderCtx.items.length === 0) {
+        resetState();
         setRestaurants(false);
         setPageTitle("Menu list");
         setMenu(true);
