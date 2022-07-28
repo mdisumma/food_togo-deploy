@@ -106,11 +106,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    min-height: 0.5em;
-    max-height: 1em ;
   }
+  
 #vegan svg{
-
   min-height: 0.5em;
   max-height: 1em ;
 }
