@@ -15,7 +15,7 @@
  .itemCounter button{
    font-weight: 600;
    font-size: 0.7em;
-   width: 2em;
+  padding: 0 0.5em;
    background-color:rgb(255, 255, 255);
    border-radius: 1em;
 }
