@@ -67,22 +67,22 @@ function Restaurants(props) {
 							<p>Vegetartian:</p>
 
 							{restaurant.vegetarian === 1 && (
-								<p>
+								<div className="leafContainer">
 									<LeafIcon />
-								</p>
+								</div>
 							)}
 							{restaurant.vegetarian === 2 && (
-								<p>
+								<div className="leafContainer">
 									<LeafIcon />
 									<LeafIcon />
-								</p>
+								</div>
 							)}
 							{restaurant.vegetarian === 3 && (
-								<p>
+								<div className="leafContainer">
 									<LeafIcon />
 									<LeafIcon />
 									<LeafIcon />
-								</p>
+								</div>
 							)}
 						</>
 					</div>

@@ -101,13 +101,13 @@
   grid-row: 2/3;
   grid-column: 3/4;
   }
-  #vegan p:last-child{
+  #vegan .leafContainer{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
   }
-  
+
 #vegan svg{
   min-height: 0.5em;
   max-height: 1em ;
