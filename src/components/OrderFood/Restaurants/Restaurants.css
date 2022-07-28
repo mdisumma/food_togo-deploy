@@ -97,12 +97,11 @@
 
 #vegan {
   margin: 0 auto;
-  max-height: 1em ;
   grid-row: 2/3;
   grid-column: 3/4;
   }
   #vegan .leafContainer{
-    margin: 0 auto;
+    background-color: red;
     
   }
 
