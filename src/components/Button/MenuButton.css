@@ -9,14 +9,12 @@
 }
 
 .menuBtn {
-
-   width: 3em;
    border-radius: 1.5em;
   
 }
 
 .menuBtn svg {
-   margin: auto;
+   margin: 0 auto;
    height: 2em;
 
 }
