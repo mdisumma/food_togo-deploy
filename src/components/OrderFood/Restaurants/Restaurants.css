@@ -101,6 +101,7 @@
   grid-column: 3/4;
   }
   #vegan .leafContainer{
+    display: inline;
     background-color: red;
     
   }
