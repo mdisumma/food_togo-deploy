@@ -1,11 +1,9 @@
 
-
-
  .itemCounter {
    background-color: var(--exlight-bg);
    padding: 0.2em;
    border-radius: 1em;
-   width: 3em;
+   width: 4em;
    height: 1.2em;
    display:flex;
    justify-content: space-between;
@@ -17,6 +15,7 @@
  .itemCounter button{
    font-weight: 600;
    font-size: 0.7em;
+   width: 2em;
    background-color:rgb(255, 255, 255);
    border-radius: 1em;
 }
