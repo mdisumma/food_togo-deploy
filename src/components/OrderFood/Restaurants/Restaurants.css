@@ -101,9 +101,16 @@
   grid-row: 2/3;
   grid-column: 3/4;
   }
-
+  #vegan p:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 0.5em;
+    max-height: 1em ;
+  }
 #vegan svg{
-  display: inline-block;
+
+  min-height: 0.5em;
   max-height: 1em ;
 }
 
