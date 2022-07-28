@@ -103,6 +103,7 @@
   }
 
 #vegan svg{
+  display: inline-block;
   max-height: 1em ;
 }
 
