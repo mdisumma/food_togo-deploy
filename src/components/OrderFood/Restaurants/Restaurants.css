@@ -110,8 +110,8 @@
   }
 
 #vegan svg{
-  min-height: 0.5em;
-  max-height: 1em ;
+  height: 1em;
+  
 }
 
 #rate {
